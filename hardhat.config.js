@@ -16,7 +16,7 @@ module.exports = {
     },
     ftm: {
       url: "https://rpc.testnet.fantom.network",
-      accounts: ["371d8f22b9a617c04eef587602c3ddb268e1fbfebe7601e79665d7e5011cf117"]
+      accounts: ["371d8f22b9a617c04eef587602c3ddb268e1fbfebe7601e79665d7e5011cf117", "231cd59441c7ce7c7159ac301f6f60ccae842d3199d091ec7abcbea566179bb1", "f6108fe9db6afb938c84591ab39f70c5d798f09f28f1d15139ed1736b024ff0f"]
     }
   },
   sourcify: {

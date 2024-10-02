@@ -8,7 +8,7 @@ import "@openzeppelin/contracts/token/ERC1155/extensions/ERC1155Pausable.sol";
 import "@openzeppelin/contracts/token/ERC1155/extensions/ERC1155Burnable.sol";
 import "@openzeppelin/contracts/token/ERC1155/extensions/ERC1155Supply.sol";
 
-contract ChefToken is ERC1155, Ownable, ERC1155Pausable, ERC1155Burnable, ERC1155Supply {
+contract ChefDropToken is ERC1155, Ownable, ERC1155Pausable, ERC1155Burnable, ERC1155Supply {
     string public name;
     string public symbol;
     string public logoImage;
