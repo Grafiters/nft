@@ -103,6 +103,7 @@ contract Marketplace {
         currentBid.active = false;
 
         emit BidAccepted(msg.sender, currentBid.bidder, tokenId, currentBid.amount);
+        emit ItemSold(msg.sender, sale.nftContract, tokenId, currentBid.amount);
     }
 
     function cancelBid(uint256 tokenId) external {
